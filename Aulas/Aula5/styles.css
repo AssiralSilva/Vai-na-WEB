@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none; /*pra tirar as bolinhas da lista*/
+    text-decoration: none; /*tirar a decoração de uma ancoragem , tag <a>*/
+  }
+  
+  /*FLEX-START*/
+  
+  /*section do flex-start*/
+  .flexStart {
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .elementoFlexStart {
+    border: solid black;
+    width: 15vw;
+    height: 20vh;
+  }
+  
+  /*FLEX-END*/
+  
+  .flexEnd {
+    background-color: violet;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .elementoFlexEnd {
+    border: solid black;
+    width: 15vw;
+    height: 20vh;
+  }
+  
+  /*CENTER*/
+  
+  .center {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .elementoCenter {
+    border: solid black;
+    width: 15vw;
+    height: 20vh;
+  }
+  
+  /*JUSTIFY-CONTENT: SPACE-AROUND;*/
+  
+  .spaceAround {
+    margin-top: 1rem;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .elementoAround {
+    border: solid black;
+    width: 8vw;
+    height: 15vh;
+  }
+  
+  /*JUSTIFY-CONTENT: SPACE-EVENLY;*/
+  
+  .spaceEvenly {
+    margin-top: 1rem;
+    background-color: #adff2f;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .elementoEvenly {
+    border: solid black;
+    width: 8vw;
+    height: 15vh;
+  }
+  
+  /*JUSTIFY-CONTENT: SPACE-BETWEEN;*/
+  
+  .spaceBetween {
+    margin-top: 1rem;
+    background-color: #bc8f8f;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .elementoBetween {
+    border: solid black;
+    width: 8vw;
+    height: 15vh;
+  }
+  

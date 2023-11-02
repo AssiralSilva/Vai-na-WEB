@@ -1,0 +1,2 @@
+Meta elementos são tags usadas em documentos HTML e XHTML para fornecer metadados estruturados sobre uma página da Web. Eles fazem parte da seção principal de uma página da web. Vários elementos Meta com diferentes atributos podem ser usados ​​na mesma página.
+Meta tags são elementos (comandos em HTML) que você cria para descrever o conteúdo de uma página para os mecanismos de busca. Assim, elas fornecem dados, como título ou breve resumo sobre o assunto abordado, para programas externos.

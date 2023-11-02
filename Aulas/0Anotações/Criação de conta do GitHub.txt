@@ -1,0 +1,18 @@
+Passo a passo de criar a conta no GitHub:
+
+https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
+
+colocar o email 
+criar uma senha
+criar o nome para a conta (o mais profissional possível)
+y (yes)
+Faça o enigma 
+create / criar 
+Pegar o código que chegou no email
+
+just me
+student
+não marcar nada
+Free
+
+O GitBash é um terminal para windows, ele é uma emulador desse terminal.

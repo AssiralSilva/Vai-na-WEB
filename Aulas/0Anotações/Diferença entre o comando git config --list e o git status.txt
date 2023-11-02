@@ -1,0 +1,4 @@
+Qual a diferença do git config --list para o git status, ambos fazem a mesma função?
+
+O comando git config --list é usado para listar todas as configurações do Git em um determinado contexto. Ele exibe todas as configurações definidas no arquivo de configuração global do Git (~/.gitconfig) e no arquivo de configuração local do repositório (.git/config), bem como as configurações em qualquer arquivo de configuração em camadas superiores. 
+  Por outro lado, o comando git status  é usado para exibir o status atual do repositório Git. Ele mostra as mudanças feitas nos arquivos, como arquivos modificados, arquivos excluídos, arquivos não rastreados, entre outros. O git status é usado para verificar o status atual do repositório em termos de alterações feitas.  

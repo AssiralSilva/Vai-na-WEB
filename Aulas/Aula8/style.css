@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: red;
+    height: 20vh;
+    background-image: url("https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2013/09/pixar.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  
+  ul {
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  .backgroundRepeat {
+    margin-top: 2rem;
+  
+    /* background-color: gray; */
+    /*opcional colocar um background-color*/
+    height: 100vh;
+    border: solid purple 5px;
+    background-image: url("pixar.png");
+  
+    /* background-repeat: repeat; 
+    repetir a imagem
+    */
+  
+    background-repeat: no-repeat;
+    /* Não repetir a imagem */
+  
+    /* background-repeat: repeat-x; */
+    /*Repetir a imagem no eixo x (horizontal/largura)*/
+  
+    /* background-repeat: repeat-y; */
+    /*Repetir a imagem no eixo y (vertical/em pé)*/
+  }
+  
+  .size {
+    margin-top: 2rem;
+    height: 100vh;
+    background-image: url("pixar.png");
+  
+    /* background-size: auto; */
+    /*Vai pegar o valor padrão da imagem*/
+    background-repeat: no-repeat;
+    border: solid orange 5px;
+  
+    background-size: 100% 100vh;
+    background-size: 50vw 600px;
+    background-image: 850px 720px;
+    background-size: 80vw 80vh;
+  }
+  
+  /* AGORA ELE TA FUNCIONANDO KKKKKK background-size: auto*/
+  
+  .auto {
+    margin-top: 2rem;
+    height: 100vh;
+    border: 5px solid gray;
+    background: url("pixar.png");
+    /* background-repeat: no-repeat; */
+    background-size: auto;
+  }
+  
+  .contain {
+    margin-top: 2rem;
+    height: 100vh;
+    background-image: url("pixar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid red 5px;
+  }
+  
+  .cover {
+    margin-top: 2rem;
+    height: 100vh;
+    background-image: url("./pixar.png");
+    background-size: cover;
+    border: solid blue 5px;
+  }
+  
+  .backgroundPosition {
+    margin-top: 2rem;
+    height: 100vh;
+    background-image: url("./pixar.png");
+    border: solid violet 5px;
+    background-repeat: no-repeat;
+  
+    /* background-position: center; 
+    a imagem ficou no centro da caixa, tanto na largura, tanto na altura.
+    */
+  
+    /* background-position: top; 
+    a imagem fica no topo da caixa
+    */
+  
+    /* background-position: left; 
+    a imagem fica a esquerda da caixa
+    */
+  
+    /* background-position: right; 
+    a imagem fica a direita da caixa
+    */
+  
+    /* background-position: bottom; 
+    a imagem fica no fundo (baixo) da caixa
+    */
+  
+    background-position: 80% 20vh;
+    background-position: 20vw 60vh;
+    background-position: 200px 100px;
+    /*1º valor largura - 2º valor altura*/
+  }
+  
